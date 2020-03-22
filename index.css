@@ -1,0 +1,791 @@
+body {
+  margin: 0 auto;
+  background-color: rgb(241, 241, 241);
+  position: absolute;
+}
+.nav-container {
+  box-sizing: border-box;
+  background-color: rgb(0, 0, 0);
+  box-sizing: border-box;
+  height: 38px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 44.86px 44.86px 44.86px 44.86px 44.86px 44.86px auto 44.86px;
+  grid-template-rows: repeat(1, 38px);
+  justify-items: center;
+  align-items: center;
+}
+
+.nav-container i {
+  color: rgb(255, 255, 255);
+}
+
+.header-text {
+  box-sizing: border-box;
+  height: 210px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  font-family: Oswald;
+  padding: 15px 16px;
+}
+
+.header-text h1 {
+  box-sizing: border-box;
+  font-size: 48px;
+  font-weight: 700;
+  height: 45px;
+}
+
+.header-text h6 {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-weight: 400;
+  height: 24px;
+}
+
+.header-text h6 .tag {
+  box-sizing: border-box;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  height: 24px;
+  width: 100px;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+}
+
+.header-image .image-text {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding-left: 20px;
+  font-family: Oswald;
+  padding-top: 200px;
+}
+
+.header-image .image-text .text-white {
+  box-sizing: border-box;
+  font-size: 36px;
+  font-weight: 400;
+  letter-spacing: 4px;
+}
+
+.header-image .image-text .text-white1 {
+  font-size: 64px;
+  letter-spacing: 4px;
+  top: -20px;
+}
+
+.header-image .header-button {
+  margin: 0 auto;
+  top: -40px;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.5
+  );
+  width: 124.078px;
+  height: 51px;
+  font-size: 18px;
+  padding: 12px 12px;
+  text-align: center;
+}
+
+.header-image {
+  background-image: url("https://www.w3schools.com/w3images/jane.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.grid-container {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: auto 60% 33.33% auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  justify-items: center;
+  width: 100%;
+  margin: 0 auto;
+  gap: 2%;
+  align-content: center;
+  margin-bottom: 20%;
+}
+
+.left-grid {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.left-grid .post {
+  background-color: rgb(255, 255, 255);
+  font-family: open-sans;
+  padding-bottom: 6%;
+  margin-top: 3%;
+  height: 25%;
+  margin-top: 3%;
+}
+
+/* .left-grid .post:last-of-type {
+  margin-bottom: 20%;
+} */
+
+.left-grid .post-title h3 {
+  box-sizing: border-box;
+  font-family: Oswald;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.left-grid .post-title h5 {
+  font-family: Oswald;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-top: 0px;
+}
+
+.left-grid .post-title .date {
+  opacity: 0.6;
+}
+
+.left-grid .post-body img {
+  box-sizing: border-box;
+  width: 80%;
+  height: 600x;
+  display: block;
+  margin: auto;
+}
+
+.left-grid .post-body .post-text {
+  display: block;
+  text-align: justify;
+  font-family: "Open Sans";
+  font-size: 16px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.left-grid .post-body .post-button {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.left-grid .post-body button {
+  background-color: rgb(255, 255, 255);
+  border-style: solid;
+  border-color: rgb(204, 204, 204);
+  border-width: 1px;
+  font-size: 15px;
+  text-align: center;
+  padding: 2% 4%;
+}
+
+.left-grid
+  .post-body
+  .button
+  .fa
+  fa-thumbs-up {
+  margin-left: 8%;
+  width: 40%;
+  display: inline-block;
+  margin-left: 2em;
+}
+
+.left-grid
+  .post-body
+  .button
+  .post-button
+  .reply-button {
+  background-color: rgb(0, 0, 0);
+  align-items: flex-start;
+  color: rgb(255, 255, 255);
+  font-family: "Open Sans";
+  width: 40%;
+}
+
+.left-grid
+  .post-body
+  .button
+  .reply-button
+  .number-likes {
+  background-color: white;
+  color: black;
+}
+
+.left-grid .post-footer {
+  display: grid;
+  grid-template-columns: 20% 70%;
+  margin-left: 0.5%;
+  margin-top: 3%;
+}
+
+.left-grid
+  .post-footer
+  .post-footer-image {
+  width: 100%;
+  height: 100%;
+}
+
+.left-grid .post-footer img {
+  width: 40%;
+  height: 90%;
+  display: inline-block;
+  margin-left: 48%;
+}
+
+.left-grid .post-footer-text {
+  text-align: left;
+}
+
+.left-grid
+  .post-footer
+  .post-footer-text
+  h4 {
+  font-size: 20px;
+  font-family: Oswald;
+  font-weight: 400;
+}
+
+.left-grid
+  .post-footer
+  .post-footer-text
+  .post-footer-opacity {
+  font-size: 15px;
+  opacity: 0.6;
+}
+
+.left-grid
+  .post-footer
+  .post-footer-text
+  p {
+  font-size: 15px;
+  font-family: "Open Sans";
+  font-weight: 700;
+  color: black;
+}
+
+.right-grid {
+  width: 90%;
+  margin-top: 5.5%;
+}
+.right-grid .card {
+  box-sizing: border-box;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  width: 100%;
+  height: 13%;
+}
+.grid-container .right-grid img {
+  width: 100%;
+  height: 30%;
+}
+
+.grid-container .right-grid .card-body {
+  box-sizing: border-box;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 80%;
+  padding: 6%;
+  font-size: 15px;
+  font-family: "Open Sans";
+}
+
+.grid-container
+  .right-grid
+  .card-body
+  h4 {
+  font-size: 20px;
+}
+
+.grid-container
+  .right-grid
+  .popular-post {
+  box-sizing: border-box;
+  background-color: white;
+  width: 100%;
+  height: 16%;
+  display: grid;
+  grid-template-rows: 20% 80%;
+  margin-top: 10%;
+}
+
+.grid-container
+  .right-grid
+  .popular-post
+  .popular-post-title {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+
+.grid-container
+  .right-grid
+  .popular-post
+  .popular-post-title
+  h4 {
+  display: block;
+  font-family: Oswald;
+  font-size: 20px;
+  font-weight: 400;
+  box-sizing: border-box;
+  margin-left: 8%;
+  margin-top: 5%;
+}
+
+.grid-container
+  .right-grid
+  .popular-post
+  .popular-post-body {
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+  list-style-type: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.grid-container
+  .right-grid
+  .popular-post-body
+  img {
+  width: 50px;
+  height: 50px;
+  display: block;
+  margin: auto;
+}
+
+.grid-container
+  .right-grid
+  .popular-post-body
+  .popular-post-img-text {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  border-bottom-style: solid;
+  border-color: rgb(221, 221, 221);
+  border-bottom-width: 1px;
+  margin-top: 3%;
+}
+
+.grid-container
+  .right-grid
+  .popular-post-body
+  .popular-post-img-text1 {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin-top: 3%;
+}
+
+.grid-container
+  .right-grid
+  .popular-post-body
+  .popular-post-img-text
+  hr {
+  border-style: solid;
+  border-color: rgb(221, 221, 221);
+}
+
+.grid-container
+  .right-grid
+  .popular-post-body
+  .popular-post-text {
+  font-size: 18px;
+  font-family: "Open Sans";
+  text-align: left;
+}
+
+.grid-container
+  .right-grid
+  .advertising-post {
+  background-color: white;
+  height: 13%;
+  display: grid;
+  grid-template-rows: 20% 70%;
+  margin-top: 10%;
+}
+
+.grid-container
+  .right-grid
+  .advertising-post
+  .advertising-post-title {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 20px;
+  font-family: Oswald;
+  font-weight: 400;
+}
+
+.grid-container
+  .right-grid
+  .advertising-post
+  .advertising-post-title
+  h4 {
+  margin-left: 8%;
+  margin-top: 5%;
+}
+
+.grid-container
+  .right-grid
+  .advertising-post
+  .advertising-post-image {
+  background-color: rgb(241, 241, 241);
+  width: 90%;
+  height: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  box-sizing: border-box;
+}
+
+.grid-container
+  .right-grid
+  .advertising-post
+  .advertising-post-body
+  h4 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-top: 35%;
+  font-size: 15px;
+  font-family: "Open Sans";
+}
+
+.grid-container .right-grid .tags {
+  background-color: white;
+  height: 11%;
+  display: grid;
+  grid-template-rows: 20% 80%;
+  margin-top: 8%;
+}
+
+.grid-container
+  .right-grid
+  .tags
+  .tags-title {
+  background-color: black;
+  box-sizing: border-box;
+}
+
+.grid-container
+  .right-grid
+  .tags
+  .tags-title
+  h4 {
+  font-family: Oswald;
+  font-size: 20px;
+  font-weight: 400;
+  box-sizing: border-box;
+  margin-left: 8%;
+  margin-top: 5%;
+  color: white;
+}
+
+.grid-container
+  .right-grid
+  .tags
+  .tags-body {
+  box-sizing: border-box;
+  display: block;
+  margin-left: 8%;
+  margin-top: 3%;
+}
+
+.grid-container
+  .right-grid
+  .tags
+  .tags-body
+  .tag-text-black {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  width: fit-content;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: inline-block;
+  margin-right: 1%;
+  font-size: 15px;
+  font-family: "Open Sans";
+  margin-bottom: 6%;
+}
+
+.grid-container
+  .right-grid
+  .tags
+  .tags-body
+  .tag-text {
+  background-color: rgb(241, 241, 241);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  width: fit-content;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  display: inline-block;
+  margin-right: 1%;
+  font-size: 12px;
+  font-family: "Open Sans";
+  margin-bottom: 6%;
+}
+
+.grid-container
+  .right-grid
+  .inspiration {
+  height: 15%;
+  background-color: white;
+  display: grid;
+  grid-template-rows: 20% 72%;
+  gap: 1%;
+  margin-top: 8%;
+}
+
+.grid-container
+  .right-grid
+  .inspiration
+  .inspiration-title {
+  background-color: black;
+  box-sizing: border-box;
+}
+
+.grid-container
+  .right-grid
+  .inspiration
+  .inspiration-title
+  h4 {
+  font-family: Oswald;
+  font-size: 20px;
+  font-weight: 400;
+  box-sizing: border-box;
+  margin-left: 8%;
+  margin-top: 8%;
+  color: white;
+}
+
+.grid-container
+  .right-grid
+  .inspiration
+  .inspiration-body {
+  display: grid;
+  grid-template-rows: repeat(2, 45%);
+  grid-template-columns: repeat(2, 50%);
+  height: 100%;
+  width: 90%;
+  margin-top: 4%;
+  margin-left: 4%;
+  gap: 2%;
+}
+
+.grid-container
+  .right-grid
+  .inspiration
+  .inspiration-body
+  .inspiration-img
+  img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grid-container .right-grid .follow-me {
+  background-color: white;
+  height: 5%;
+  display: grid;
+  grid-template-rows: 54% 46%;
+  margin-top: 8%;
+}
+
+.grid-container
+  .right-grid
+  .follow-me
+  .follow-me-title {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 20px;
+  font-family: Oswald;
+  font-weight: 400;
+}
+
+.grid-container
+  .right-grid
+  .follow-me
+  .follow-me-title
+  h4 {
+  box-sizing: border-box;
+  margin-left: 8%;
+  margin-top: 5%;
+  color: white;
+}
+
+.grid-container
+  .right-grid
+  .follow-me
+  .follow-me-body {
+  display: block;
+  margin-left: 8%;
+  margin-top: 5%;
+}
+
+.grid-container
+  .right-grid
+  .follow-me
+  .follow-me-body
+  i {
+  display: inline-block;
+}
+
+.grid-container .right-grid .subscribe {
+  background-color: white;
+  height: 12%;
+  display: grid;
+  grid-template-rows: 26% 74%;
+  margin-top: 8%;
+}
+
+.grid-container
+  .right-grid
+  .subscribe
+  .subscribe-title {
+  background-color: black;
+  box-sizing: border-box;
+}
+
+.grid-container
+  .right-grid
+  .subscribe
+  .subscribe-title
+  h4 {
+  display: block;
+  font-family: Oswald;
+  font-size: 20px;
+  font-weight: 400;
+  box-sizing: border-box;
+  margin-left: 8%;
+  margin-top: 5%;
+  color: white;
+}
+
+grid-container
+  .right-grid
+  .subscribe
+  .subscribe-body {
+  display: grid;
+  grid-template-rows: 33.33% auto 33.33%;
+}
+
+.grid-container
+  .right-grid
+  .subscribe
+  .subscribe-body
+  .subscribe-label-text {
+  display: block;
+  margin-left: 8%;
+  margin-right: 8%;
+  font-family: "Open Sans";
+  font-size: 15px;
+  text-align: justify;
+  box-sizing: border-box;
+}
+
+.grid-container
+  .right-grid
+  .subscribe
+  .subscribe-body
+  .subscribe-text-box {
+  box-sizing: border-box;
+  width: 85%;
+  margin-left: 8%;
+  margin-right: 8%;
+  font-size: 15px;
+  font-family: "Open Sans";
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.grid-container
+  .right-grid
+  .subscribe
+  .subscribe-body
+  .subscribe-button {
+  box-sizing: border-box;
+  display: block;
+  margin-left: 8%;
+  margin-right: 8%;
+  width: 85%;
+  height: 20%;
+  font-size: 15px;
+  font-family: "Open Sans";
+  background-color: rgb(244, 67, 54);
+  color: white;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+.footer-container {
+  background-color: rgb(97, 97, 97);
+  color: white;
+  font-family: "Open Sans";
+  font-size: 15px;
+  margin-bottom: 0 auto;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4%;
+  margin-top: 100%;
+}
+
+.footer-container .footer-body {
+  padding-top: 2.8%;
+  padding-left: 3%;
+}
+
+.footer-container .footer-button {
+  background-color: black;
+  color: white;
+  border-color: white;
+  font-family: "Open Sans";
+  font-size: 15px;
+  padding: 1% 2%;
+}
+
+.footer-container .footer-button i {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.footer-container .footer-body p {
+  margin-top: 3%;
+  text-decoration-color: white;
+}
+
+.footer-container .fa {
+  display: inline-block;
+  margin-right: 0.5em;
+}
+
+.footer-container .footer-body i {
+  text-decoration: none;
+}
+
+.footer-container .footer-body a,
+a:hover,
+a:active,
+a:visited {
+  color: white;
+}
